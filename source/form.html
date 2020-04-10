@@ -8,11 +8,11 @@
   <body>
     <header class="page-header">
       <div class="page-header__wrapper">
-        <a class="logo-header"><!--логотип в свг?---></a>
-        <nav class="main-nav">
+        <a class="logo-pink-header"><!--логотип в свг---></a>
         <button class="main-nav__button" type="button"></button>
+        <nav class="main-nav">
           <ul class="main-nav__items">
-            <li class="main-nav__item"><a href="index.html">Главная</a></li>
+            <li class="main-nav__item"><a>Главная</a></li>
             <li class="main-nav__item"><a href="photo.html">Фотографии</a></li>
             <li class="main-nav__item"><a href="#.html">Конкурс</a></li>
             <li class="main-nav__item"><a href="http://www.htmlacademy.ru">HTML Academy</a></li>
@@ -36,8 +36,6 @@
         <div class="contest__inner">
           <form class="form" method="post" action="http://echo.htmlacademy.ru">
             <div class="form__body">
-              <div class="form__fieldset  form__fieldset--fullname">
-                <h2 class="sr-only">Ваше полное имя</h2>
                 <div class="form__fieldset-inner">
                   <div class="form__text-fields  form__text-fields--fullname">
                     <div class="form__field-text  form__field-text--fullname">
@@ -53,7 +51,6 @@
                       <input class="form__text-input  form__text-input--middle-name" id="user-middle-name" type="text" name="Отчество" placeholder="Ну и отчество тоже">
                     </div>
                   </div>
-                </div>
               </div>
               <div class="form__fieldset  form__fieldset--achievements">
                 <h2 class="form__title">Ваши безбашенные достижения в путешествии</h2>
@@ -139,10 +136,10 @@
                 </div>
               </div>
             </div>
-            <footer class="form__footer">
+            <div class="form__footer">
               <button class="form__submit-button  button  button--submit" type="submit">Отправить форму</button>
               <div class="form__note"><span class="form__note-symbol">*</span> — обязательные <span class="form__note-purpose">для заполнения</span> поля</div>
-            </footer>
+            </div>
           </form>
         </div>
       </div>
